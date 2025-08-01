@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html xmlns="http://ww.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="~{Layout/Plantilla :: head}"></head>
+    <body>
+        <header th:replace="~{Layout/Plantilla :: header}"></header>
+        
+        <section th:replace="~{categoria/Fragmentos :: botonesAgregar}" />
+        <section th:replace="~{categoria/Fragmentos :: agregarCategoria}" />
+        <section th:replace="~{categoria/Fragmentos :: listadoCategorias}" />
+        
+        <footer th:replace="~{Layout/Plantilla :: footer}"></footer>
+    </body>
+</html>
